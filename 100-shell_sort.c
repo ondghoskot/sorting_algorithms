@@ -18,7 +18,7 @@ void shell_sort(int *array, size_t size)
 		diff = diff * 3 + 1;
 	while (diff >= 1)
 	{
-		i = diff ;
+		i = diff;
 		while (i < size)
 		{
 			j = i;
